@@ -295,6 +295,8 @@
     background-size: contain;
 }
 
+
+
 @media (min-width: 991.98px) {
     .bg-footer {
         margin-top: 90px !important;

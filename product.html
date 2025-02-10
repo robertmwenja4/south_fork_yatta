@@ -27,6 +27,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/custome.css" rel="stylesheet">
 </head>
 
 <body>
@@ -225,6 +226,31 @@
     </div>
     <!-- Features Start -->
 
+    <div class="slider-header">
+        <h1>Free-Range Poultry Farming</h1>
+        <p>These images showcase a large flock of free-range chickens in a natural outdoor setting. The birds, primarily brown with some white and speckled varieties, are actively foraging and moving around in an open environment surrounded by greenery.</p>
+    </div>
+
+    <div class="slider-container container">
+        <button class="prev" id="prevBtn">←</button>
+        
+        <div class="slider">
+            <div class="slides">
+                <img src="img/feeds.png" class="slide">
+                <img src="img/feeds_1.png" class="slide">
+                <img src="img/roaming_chickens.jpg" class="slide">
+                <img src="img/hen1.jpg" class="slide">
+                <img src="img/hen2.jpg" class="slide">
+                <img src="img/hen3.jpg" class="slide">
+                <img src="img/hen4.jpg" class="slide">
+                <img src="img/hen5.jpg" class="slide">
+            </div>
+        </div>
+        
+        <button class="next" id="nextBtn">→</button>
+    </div>
+
+
     <div class="container mt-4">
         <h2 class="text-center mb-4">Hands on in Southfork</h2>
         
@@ -261,7 +287,30 @@
                 <p class="text-center mt-2">Vaccination and Feeding Guide</p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <video id="video1" width="420" controls>
+                        <source src="videos/self_feeding_chicken.mp4" type="video/mp4">
+                        <source src="mov_bbb.ogg" type="video/ogg">
+                        Your browser does not support HTML video.
+                      </video>
+                </div>
+                <p class="text-center mt-2">Chicken Feeding</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <video id="video1" width="420" controls>
+                        <source src="videos/feeding.mp4" type="video/mp4">
+                        <source src="mov_bbb.ogg" type="video/ogg">
+                        Your browser does not support HTML video.
+                      </video>
+                </div>
+                <p class="text-center mt-2">Feeding</p>
+            </div>
+        </div>
     </div>
+    
     
 
     <!-- Footer Start -->
@@ -354,6 +403,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
